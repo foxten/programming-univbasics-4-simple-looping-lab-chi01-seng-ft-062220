@@ -23,12 +23,11 @@ def output_array (array)
 end
 
 def return_string_array (array)
+  new_array = []
   i = 0
-  array.push(
   while array[i] do
     array[i].to_s
     i+=1
   end
-    )
-    return array
+  return new_array
 end
